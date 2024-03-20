@@ -19,7 +19,7 @@ app.use(express.json())
 app.listen(3000, ()=>{
     console.log('Server is running on port 3000.')
 })
-
+//Routes
 app.use('/api/user', userRoutes);
 app.use('/api/auth/', authRoutes)
 
